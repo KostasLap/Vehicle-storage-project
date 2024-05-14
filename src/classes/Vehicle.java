@@ -53,19 +53,19 @@ public abstract class Vehicle {
     }
 
     //SETTERS
-    public void setMake(){
+    public void setMake(String make){
         this.make=make;
     }
-    public void setModel(){
+    public void setModel(String model){
         this.model=model;
     }
-    public void setYear(){
+    public void setYear(int year){
         this.year=year;
     }
-    public void setId(){
+    public void setId(int id){
         this.id=id;
     }
-    public void setCost(){
+    public void setCost(double cost){
         this.cost=cost;
     }
 
